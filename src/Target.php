@@ -38,6 +38,11 @@ class Target extends \yii\log\Target
     public $chatId;
 
     /**
+     * @var string bot token.
+     */
+    public $messageThreadId;
+
+    /**
      * @var string log message template.
      */
     public $template = '{levelAndRequest}
@@ -126,6 +131,7 @@ class Target extends \yii\log\Target
         $message = new Message($message, $this);
         $request = [
             'chat_id' => $this->chatId,
+            'message_thread_id' => $this->messageThreadId,
             'parse_mode' => 'Markdown',
             'disable_web_page_preview' => true,
             'disable_notification' => false,
