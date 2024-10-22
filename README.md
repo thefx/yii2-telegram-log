@@ -15,13 +15,13 @@ The preferred way to install this extension is through [composer](https://getcom
 Either run
 
 ```bash
-composer require "sergeymakinen/yii2-telegram-log:^2.0"
+composer require "thefx/yii2-telegram-log:^2.0"
 ```
 
 or add
 
 ```json
-"sergeymakinen/yii2-telegram-log": "^2.0"
+"thefx/yii2-telegram-log": "^2.0"
 ```
 
 to the require section of your `composer.json` file.
