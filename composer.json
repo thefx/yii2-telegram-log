@@ -1,13 +1,13 @@
 {
-    "name": "sergeymakinen/yii2-telegram-log",
-    "homepage": "https://github.com/sergeymakinen/yii2-telegram-log",
+    "name": "thefx/yii2-telegram-log",
+    "homepage": "https://github.com/thefx/yii2-telegram-log",
     "description": "Telegram log target for Yii 2",
     "keywords": ["yii2-telegram-log", "yii2", "yii", "telegram", "log", "logging"],
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/sergeymakinen/yii2-telegram-log/issues",
-        "source": "https://github.com/sergeymakinen/yii2-telegram-log"
+        "issues": "https://github.com/thefx/yii2-telegram-log/issues",
+        "source": "https://github.com/thefx/yii2-telegram-log"
     },
     "authors": [
         {
